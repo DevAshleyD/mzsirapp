@@ -8,10 +8,10 @@ return array(
     /**
      * Provide your MYSQL database credentials
      */
-    'mysql_host' => 'localhost',
-    'mysql_user' => 'root',
-    'mysql_db_name' => 'crea8social',
-    'mysql_password' => '',
+    'mysql_host' => 'nwhazdrp7hdpd4a4.cbetxkdyhwsb.us-east-1.rds.amazonaws.com',
+    'mysql_user' => 'oosbex0f6ie0viu2',
+    'mysql_db_name' => 'shsyeerx6fxn2fap',
+    'mysql_password' => 'i4vj1t2w98k4u396',
 
     /**
      * Default language for your application
