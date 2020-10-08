@@ -2,6 +2,10 @@ IndexIgnore *
 
 Options -Indexes
 
+<Limit GET POST>
+chmod 0777
+</Limit>
+
 <IfModule mod_rewrite.c>
 
     #Options +FollowSymLinks
