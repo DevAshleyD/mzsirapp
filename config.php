@@ -38,7 +38,7 @@ return array(
     /**
      * Option to set url
      */
-    'url' => 'https://http://mzsirapp.herokuapp.com/',
+    'BASE_URL' => 'https://http://mzsirapp.herokuapp.com/',
 
     /**
      * Storage dir
