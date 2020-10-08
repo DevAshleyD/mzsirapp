@@ -39,6 +39,7 @@ return array(
      * Storage dir
      */
     'storage_dir' => __DIR__.'/storage/',
+    chmod("/app/storage/", 0777)
 
     /**
      * Plugins directory
