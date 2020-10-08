@@ -41,6 +41,11 @@ return array(
     'storage_dir' => __DIR__.'/app/storage/',
 
     /**
+     * Permissions dir
+     */
+    'permissions_dir' => __DIR__.'/app/storage/permissions',
+
+    /**
      * Plugins directory
      */
     'plugins_dir' => __DIR__.'/plugins/',
