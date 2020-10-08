@@ -36,6 +36,11 @@ return array(
     'https' => false,
 
     /**
+     * Option to set url
+     */
+    'url' => 'https://http://mzsirapp.herokuapp.com/',
+
+    /**
      * Storage dir
      */
     'storage_dir' => __DIR__.'/app/storage/',
