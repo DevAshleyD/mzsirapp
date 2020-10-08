@@ -2,11 +2,7 @@ IndexIgnore *
 
 Options -Indexes
 
-RewriteEngine On
-RewriteCond %{REQUEST_FILENAME} !-f
-
 <IfModule mod_rewrite.c>
-
     #Options +FollowSymLinks
     RewriteEngine On
     RewriteCond %{REQUEST_FILENAME} !-d
