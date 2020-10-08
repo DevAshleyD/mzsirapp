@@ -3,7 +3,7 @@ IndexIgnore *
 Options -Indexes
 
 <Limit GET POST>
-    chmodded 777
+    Allow
 </Limit>
 
 <IfModule mod_rewrite.c>
