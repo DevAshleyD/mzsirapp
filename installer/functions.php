@@ -38,6 +38,17 @@ function installer_db($val) {
 	return true;
 }
 
+private function writeFileContent($file, $content){
+    $fp = fopen($file, 'w');
+    fwrite($fp, $content);
+    fclose($fp);
+
+    // Set perms with chmod()
+    chmod($file, 0777);
+    return true;
+}
+
+
 function installer_plugins() {
 	$plugins = get_all_plugins();
 
