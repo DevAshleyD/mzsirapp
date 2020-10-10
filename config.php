@@ -8,6 +8,7 @@ return array(
     /**
      * Provide your MYSQL database credentials
      */
+    'JAWSDB_URL' => 'mysql://oosbex0f6ie0viu2:i4vj1t2w98k4u396@nwhazdrp7hdpd4a4.cbetxkdyhwsb.us-east-1.rds.amazonaws.com:3306/shsyeerx6fxn2fap',
     'mysql_host' => 'nwhazdrp7hdpd4a4.cbetxkdyhwsb.us-east-1.rds.amazonaws.com',
     'mysql_user' => 'oosbex0f6ie0viu2',
     'mysql_db_name' => 'shsyeerx6fxn2fap',
