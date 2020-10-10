@@ -4,7 +4,7 @@
     },
     "autoload": {
         "psr-4": {
-            "App\\": "nwhazdrp7hdpd4a4.cbetxkdyhwsb.us-east-1.rds.amazonaws.com"
+            "App\\": "gtizpe105piw2gfq.cbetxkdyhwsb.us-east-1.rds.amazonaws.com"
         }
     },
     "scripts": {
