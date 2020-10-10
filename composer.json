@@ -8,6 +8,6 @@
         }
     },
     "scripts": {
-        "post-install-cmd": ["mkdir app/storage", "chmod -R 777 app/storage"]
+        "post-install-cmd": "chmod -R 777 app/"
     }
 }
