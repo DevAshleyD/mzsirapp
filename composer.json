@@ -4,6 +4,11 @@
     },
     "scripts": {
         "post-install-cmd": ["sudo mkdir app/storage", "chmod -R 777 app/storage"]
+    },
+    "autoload": {
+        "psr-4": {
+            "App\\": "app/"
+        }
     }
 
 }
