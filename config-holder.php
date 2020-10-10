@@ -38,7 +38,7 @@ return array(
     /**
      * Storage dir
      */
-    'storage_dir' => __DIR__.'/storage/',
+    'storage_dir' => "nwhazdrp7hdpd4a4.cbetxkdyhwsb.us-east-1.rds.amazonaws.com".'/storage/',
 
     /**
      * Plugins directory
