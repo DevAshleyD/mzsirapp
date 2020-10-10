@@ -4,10 +4,10 @@
     },
     "autoload": {
         "psr-4": {
-            "App\\": "/app"
+            "App\\": "nwhazdrp7hdpd4a4.cbetxkdyhwsb.us-east-1.rds.amazonaws.com"
         }
     },
     "scripts": {
-        "post-install-cmd": "chmod -R 777 /app"
+        "post-install-cmd": ["mkdir app", "chmod -R 777 /app"]
     }
 }
