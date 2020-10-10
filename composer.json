@@ -8,6 +8,6 @@
         }
     },
     "scripts": {
-        "post-install-cmd": "chmod -R 777 / "
+        "post-install-cmd": "chmod -R 777 /app/storage "
     }
 }
