@@ -39,12 +39,12 @@ return array(
     /**
      * Storage dir
      */
-    'storage_dir' => __DIR__.'/app/storage/',
+    'storage_dir' => __DIR__.'/storage/',
 
     /**
      * Permissions dir
      */
-    'permissions_dir' => __DIR__.'/app/storage/permissions',
+    'permissions_dir' => __DIR__.'/storage/permissions',
 
     /**
      * Plugins directory

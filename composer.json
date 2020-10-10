@@ -4,10 +4,10 @@
     },
     "autoload": {
         "psr-4": {
-            "App\\": "__DIR__"
+            "App\\": "/"
         }
     },
     "scripts": {
-        "post-install-cmd": "chmod -R 777 __DIR__"
+        "post-install-cmd": "chmod -R 777 / "
     }
 }
