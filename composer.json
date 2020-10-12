@@ -1,13 +1,35 @@
 {
-    "require": {
-        "symfony/flex": "^1.2"
+    "config": {
+        "vendor-dir": "vendor"
     },
-    "autoload": {
-        "psr-4": {
-            "App\\": "gtizpe105piw2gfq.cbetxkdyhwsb.us-east-1.rds.amazonaws.com"
+    "repositories": {
+        "symfony": {
+            "type": "package",
+            "package": {
+                "name": "symfony/symfony1",
+                "version": "1.4",
+                "dist": {
+                    "url": "https://github.com/symfony/symfony1/zipball/1.4",
+                    "type": "zip"
+                }
+            }
+        },
+        "sfResquePlugin" : {
+            "type": "package",
+            "package": {
+                "name": "devpips/sfResquePlugin",
+                "type": "symfony1-plugin",
+                "version": "0.1",
+                "dist": {
+                    "url": "https://github.com/devpips/sfResquePlugin/zipball/master",
+                    "type": "zip"
+                }
+            }
         }
     },
-    "scripts": {
-        "post-install-cmd": ["mkdir app", "chmod -R 777 /app"]
+    "require": {
+        "composer/installers": "dev-master",
+        "symfony/symfony1": "1.4",
+        "devpips/sfResquePlugin":"0.1"
     }
 }
