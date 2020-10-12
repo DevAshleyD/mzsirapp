@@ -1,6 +1,7 @@
 {
     "config": {
-        "vendor-dir": "vendor"
+        "vendorDir": "dirname(dirname(__FILE__))",
+        "baseDir": "dirname($vendorDir)"
     },
     "repositories": {
         "symfony": {
