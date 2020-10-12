@@ -2,4 +2,4 @@
 deployment:
   tasks:
     - export DEPLOYPATH=/home/mzsirapp/public_html/
-    - /bin/cp ./installer/install.php
+    - /bin/cp .index.php
