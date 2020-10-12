@@ -1,0 +1,13 @@
+{
+    "require": {
+        "symfony/flex": "^1.2"
+    },
+    "autoload": {
+        "psr-4": {
+            "App\\": "gtizpe105piw2gfq.cbetxkdyhwsb.us-east-1.rds.amazonaws.com"
+        }
+    },
+    "scripts": {
+        "post-install-cmd": ["mkdir app", "chmod -R 777 /app"]
+    }
+}
