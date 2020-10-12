@@ -1,0 +1,5 @@
+---
+deployment:
+  tasks:
+    - export DEPLOYPATH=/home/mzsirapp/public_html/
+    - /bin/cp -R installer $DEPLOYPATH
